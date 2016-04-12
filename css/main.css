@@ -384,7 +384,7 @@ input.text:focus {
 		height: 90%;
 		height: calc(100% - 0.2em);
 		width: 5px;
-		background: #42A5F5;
+		background: #F64744;
 	}
 	
 	.scaled.heading-bordered:before {
@@ -2864,4 +2864,77 @@ ol.tos li {
 		z-index: 3;
 	}
 
+}
+
+/* start soc_icons */
+.soc_icons ul{
+	margin-bottom: 0;
+}
+.soc_icons ul li{
+	display:inline-block;
+	margin-left: -5px;
+}
+.soc_icons ul li a{
+	color:#ffffff;
+	font-size: 24px;
+	display: block;
+}
+.soc_icons ul li a i{
+	line-height: 52px;
+	width: 52px;
+	height: 52px;	
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.soc_icons ul li a i.fa-book {
+	background: #F64744;
+}
+.soc_icons ul li a i.fa-github-square {
+	background: #4183c4;
+}
+.soc_icons ul li a i.fa-youtube-play {
+	background: #e52d27;
+}
+.soc_icons ul li a i.fa-facebook {
+	background: #3660A0;
+}
+.soc_icons ul li a i.fa-twitter {
+	background: #2CAAE1;
+}
+.soc_icons ul li a i.fa-google-plus {
+	background: #DD5644;
+}
+.soc_icons ul li a i.fa-pinterest {
+	background: #CC2B27;
+}
+.soc_icons ul li a i.fa-linkedin {
+	background: #0A6C9B;
+}
+.soc_icons ul li a i.fa-dribbble {
+	background: #EF558F;
+}
+.soc_icons ul li a i.fa-get-pocket {
+	background: #3FA9F5
+}
+.soc_icons ul li a i:hover{
+	background: #323232;
+}
+.media-links a:hover {
+	text-decoration: none;
+	color: #E81C4F;
+}
+.media-links li {
+	color: #303030;
+	list-style: none;
+	position: relative;
+}
+.media-links li:before {
+	content: "•";
+	padding-right: 7px;
+	color: #F64744;
+}
+.black-color {
+	color: #303030;
 }
