@@ -2938,3 +2938,15 @@ ol.tos li {
 .black-color {
 	color: #303030;
 }
+.reg-link{
+	color: black;
+}
+.reg-link:hover {
+	text-decoration: none;
+	color: #E81C4F;
+}
+.funders li {
+	color: #303030;
+	list-style: none;
+	position: relative;
+}
